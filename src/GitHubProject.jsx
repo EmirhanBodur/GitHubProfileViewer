@@ -103,7 +103,7 @@ const GitHubProjects = () => {
       fetchData();
       setIsProfileUpdated(false);
     }
-  }, [isProfileUpdated, inputValue, githubToken]); // inputValue ve githubToken'ı da ekleyin
+  }, [isProfileUpdated, inputValue, githubToken]);
   
 
   const addFavoriteUser = () => {
